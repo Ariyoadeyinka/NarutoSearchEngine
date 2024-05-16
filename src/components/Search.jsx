@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CharacterCards from "./CharacterCards";
 
 export default function Search({ query, setQuery }) {
   const [bio, setBio] = useState({});
@@ -34,7 +35,7 @@ export default function Search({ query, setQuery }) {
         Search
       </button>
         {loading ? <progress/>: ""}
-      {bio?.name?.length > 0? <p>{bio?.name}</p> : ""}
+      {bio?.name?.length > 0? <CharacterCards bio = {bio} setBio={setBio} /> : ""}
     </div>
   );
 }

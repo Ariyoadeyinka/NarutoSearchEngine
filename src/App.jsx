@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Search from './components/Search'
+import './App.css'
 
 function App() {
  const [query, setQuery]= useState("")
