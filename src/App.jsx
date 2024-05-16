@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import Search from './components/Search'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ const [query, setQuery]= useState("")
   return (
     <div className="App">
+    <Search query = {query} setQuery = {setQuery}/>
     </div>
   )
 }
