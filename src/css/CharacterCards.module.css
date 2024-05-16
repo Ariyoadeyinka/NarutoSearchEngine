@@ -1,4 +1,10 @@
 .personalInfo {
   width: 40%;
   background-color: #2d3443;
+  color: white;
+  font-family: cursive;
+}
+.personalInfo p {
+  color: white;
+  font-family: cursive;
 }

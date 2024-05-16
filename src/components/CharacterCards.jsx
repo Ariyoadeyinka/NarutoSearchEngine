@@ -6,10 +6,11 @@ export default function CharacterCards({ bio }) {
         <div>
           <article className={styles.personalInfo}>
             <img src={bio?.images[0]} alt={bio?.name} />
-            <h1>{bio?.name}</h1>
-            <p>Birthdate: {bio.personal.birthdate}</p>
-            <p>Sex: {bio.personal.sex}</p>
-            <p>Blood-Type: {bio.personal.bloodType}</p>
+            <h3>{bio?.name}</h3>
+            <p><strong>Birthdate:</strong> {bio.personal.birthdate}</p>
+            <p><strong>Sex:</strong> {bio.personal.sex}</p>
+            <p><strong>Clan:</strong> {bio.personal.clan}</p>
+            <p><strong>Blood-Type:</strong> {bio.personal.bloodType}</p>
             <strong>Affiliations:</strong>
             {bio?.personal.affiliation?.map((affiliation, idx) => (
               <li key={idx}>{affiliation}</li>
