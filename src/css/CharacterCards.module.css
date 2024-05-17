@@ -2,12 +2,12 @@
   width: 50%;
   background-color: #2d3443;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
   margin: 10px;
 }
 .personalInfo p {
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .personalInfo img {
@@ -28,14 +28,14 @@
   width: 50%;
   background-color: #2d3443;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
   margin: 10px;
   height: 100%;
 }
 .OtherInfoOuter{
   width: 50%;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
   margin: 10px;
   height: 100%;
 }
@@ -43,7 +43,7 @@
   width: 100%;
   background-color: #2d3443;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
   height: 100%;
 }
 .OtherInfoBox {
