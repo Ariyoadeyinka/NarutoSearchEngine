@@ -66,6 +66,10 @@
     margin: 0;
     margin-bottom: 20px;
   }
+  .OtherInfoOuter{
+    width: 100%;
+    margin: 0;
+  }
   .OtherInfoBox {
     display: inline;
   }
