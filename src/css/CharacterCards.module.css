@@ -4,24 +4,70 @@
   color: white;
   font-family: cursive;
   margin: 10px;
+  height: 100%;
 }
 .personalInfo p {
   color: white;
   font-family: cursive;
 }
-.CharInfo{
-  margin-top: 50px;
-}
-.cards{
-  display: flex;
-}
-@media only screen and (max-width: 600px) {
-.personalInfo{
-  width: 100%;
-  margin: 0;
+
+.personalInfo img {
+  border-radius: 5px;
   margin-bottom: 20px;
 }
-.cards{
-  display: inline;
+.personalInfo strong {
+  font-weight: 600;
+  color: orange;
 }
+.CharInfo {
+  margin-top: 50px;
+}
+.cards {
+  display: flex;
+}
+.OtherInfo {
+  width: 50%;
+  background-color: #2d3443;
+  color: white;
+  font-family: cursive;
+  margin: 10px;
+  height: 100%;
+}
+.OtherInfoOuter{
+  width: 50%;
+  color: white;
+  font-family: cursive;
+  margin: 10px;
+  height: 100%;
+}
+.OtherInfoInner{
+  width: 100%;
+  background-color: #2d3443;
+  color: white;
+  font-family: cursive;
+  height: 100%;
+}
+.OtherInfoBox {
+  display: flex;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+  .personalInfo {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .cards {
+    display: inline;
+  }
+  .OtherInfo {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .OtherInfoBox {
+    display: inline;
+  }
 }
