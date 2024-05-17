@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CharacterCards from "./CharacterCards";
-import logo from '../images/Naruto_logo.svg.png'
+import characters from '../images/Characters.png'
 
 export default function Search({ query, setQuery }) {
   const [bio, setBio] = useState({});
@@ -24,7 +24,7 @@ export default function Search({ query, setQuery }) {
   };
   return (
     <div className="container">
-      <img src={logo} alt="" />
+      <img src={characters} alt="" />
       <input
         type="search"
         name="search"
