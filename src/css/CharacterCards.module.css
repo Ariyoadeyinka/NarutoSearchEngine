@@ -23,7 +23,7 @@
   font-weight: 600;
   color: orange;
 }
-h2{
+h2 {
   color: orange;
 }
 .CharInfo {
@@ -70,7 +70,7 @@ h2{
   color: white;
   font-family: sans-serif;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 5px;
   font-size: 20px;
   height: 100%;
 }
@@ -98,5 +98,8 @@ h2{
   }
   .OtherInfoBox {
     display: inline;
+  }
+  .OtherInfoInnerTwo{
+    margin-top: 20px;
   }
 }
