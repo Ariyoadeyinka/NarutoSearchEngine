@@ -70,7 +70,7 @@ h2 {
   color: white;
   font-family: sans-serif;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 20px;
   height: 100%;
 }
@@ -99,7 +99,7 @@ h2 {
   .OtherInfoBox {
     display: inline;
   }
-  .OtherInfoInnerTwo{
+  .OtherInfoInnerTwo {
     margin-top: 20px;
   }
 }
