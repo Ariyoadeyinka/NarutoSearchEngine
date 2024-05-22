@@ -77,6 +77,16 @@ h2 {
 .OtherInfoBox {
   display: flex;
 }
+.Information{
+  background-color: white;
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+  display: flex;
+}
+.Information h1{
+  color: #171c24;
+}
 
 @media only screen and (max-width: 720px) {
   .personalInfo {
