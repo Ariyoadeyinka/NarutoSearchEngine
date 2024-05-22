@@ -4,8 +4,11 @@
   color: white;
   font-family: sans-serif;
   margin: 10px;
-  padding: 20px;
   font-size: 20px;
+  border-radius: 5px;
+}
+.personalInfoContainer{
+  padding: 30px;
 }
 .personalInfo p {
   color: white;
@@ -14,7 +17,7 @@
 
 .personalInfo img {
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .personalInfo strong {
   font-weight: 600;

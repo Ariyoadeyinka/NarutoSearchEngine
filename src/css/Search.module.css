@@ -1,25 +1,25 @@
 .Search {
-  padding: 20px;
-  width: 50%;
-  background-color: #13171f;
-  border: none;
-  border-bottom: 2px solid white;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px 20px;
+    width: 50%;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    background-color: #13171f;
 }
 
 button {
-  background-color: #13171f;
+  background-color: white;
   border: 2px solid white;
   border-radius: 10px;
   margin-left: 20px;
-  height: 70px;
-  width: 100px;
-  margin-top: 20px;
+  height: 3%;
+  width: 3%;
+  margin-top: 10px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: white;
-}
 .ImageContainer {
   width: 500px;
 }
@@ -29,6 +29,13 @@ button:hover {
   margin-bottom: 50px;
 }
 .searchIcon {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1080px){
+    button{
+        height: 30px;
+        width: 30px;
+    }
 }
