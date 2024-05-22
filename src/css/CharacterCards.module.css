@@ -33,7 +33,7 @@ h2 {
   margin: auto;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .cards {
   display: flex;
@@ -77,15 +77,31 @@ h2 {
 .OtherInfoBox {
   display: flex;
 }
-.Information{
+.Information {
   background-color: white;
-width: 40%;
-margin-left: auto;
-margin-right: auto;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
 }
-.Information h1{
+.toCenter{
+  margin-left: auto;
+  margin-right: auto;
+}
+.toCenter img {
+  width: 50px;
+  height: 50px;
+
+}
+.toCenter h1 {
   color: #171c24;
+  float: right;
+  margin-top: 0;
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 720px) {
