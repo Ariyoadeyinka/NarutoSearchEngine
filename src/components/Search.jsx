@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CharacterCards from "./CharacterCards";
 import characters from '../images/Characters.png'
+import styles from '../css/Search.module.css'
 
 export default function Search({ query, setQuery }) {
   const [bio, setBio] = useState({});
