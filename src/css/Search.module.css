@@ -1,6 +1,9 @@
 .Search{
     padding: 20px;
     width: 50%;
+    background-color: #13171f;
+    border: none;
+    border-bottom: 2px solid white;
 }
 
 button{
@@ -8,4 +11,14 @@ button{
     background-color: bisque;
     border: none;
     border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.ImageContainer{
+    width: 500px;
+}
+.charImage{
+    max-width: 90%;
+  height: auto;
+    margin-bottom: 50px;
 }
