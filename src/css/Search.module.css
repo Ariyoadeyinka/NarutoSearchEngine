@@ -1,0 +1,11 @@
+.Search{
+    padding: 20px;
+    width: 50%;
+}
+
+button{
+    padding: 20px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+}

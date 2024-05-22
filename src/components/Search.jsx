@@ -24,20 +24,22 @@ export default function Search({ query, setQuery }) {
     }
   };
   return (
-    <div className="container">
+    <div>
+      <div className="container">
       <img src={characters} alt="" />
       <input
         type="search"
         name="search"
         placeholder="Search"
         aria-label="Search"
+        className={styles.Search}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
       <button onClick={searchChar} disabled={loading} aria-busy={loading ? "true" :  "false"}>
         Search
       </button>
-        {loading ? <progress/>: ""}
+      </div>
       {bio?.name?.length > 0? <CharacterCards bio = {bio} setBio={setBio} /> : ""}
     </div>
   );
