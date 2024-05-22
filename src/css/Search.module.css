@@ -1,24 +1,34 @@
-.Search{
-    padding: 20px;
-    width: 50%;
-    background-color: #13171f;
-    border: none;
-    border-bottom: 2px solid white;
+.Search {
+  padding: 20px;
+  width: 50%;
+  background-color: #13171f;
+  border: none;
+  border-bottom: 2px solid white;
 }
 
-button{
-    padding: 20px;
-    background-color: bisque;
-    border: none;
-    border-radius: 10px;
-    margin-left: 20px;
-    cursor: pointer;
+button {
+  background-color: #13171f;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 20px;
+  height: 70px;
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-.ImageContainer{
-    width: 500px;
+
+button:hover {
+  background-color: white;
 }
-.charImage{
-    max-width: 90%;
+.ImageContainer {
+  width: 500px;
+}
+.charImage {
+  max-width: 90%;
   height: auto;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+.searchIcon {
+  width: 50px;
+  height: 50px;
 }

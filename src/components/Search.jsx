@@ -2,7 +2,7 @@ import { useState } from "react";
 import CharacterCards from "./CharacterCards";
 import characters from "../images/Characters.png";
 import styles from "../css/Search.module.css";
-
+import searchIcon from "../images/10618925.png";
 export default function Search({ query, setQuery }) {
   const [bio, setBio] = useState({});
   const [loading, setLoading] = useState(false);
@@ -30,20 +30,20 @@ export default function Search({ query, setQuery }) {
         <input
           type="search"
           name="search"
-          placeholder="Search"
+          placeholder="Search Naruto Characters..."
           aria-label="Search"
           className={styles.Search}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button
-          onClick={searchChar}
-          disabled={loading}
-          aria-busy={loading ? "true" : "false"}
-        >
-          Search
-        </button>
       </div>
+      <button
+        onClick={searchChar}
+        disabled={loading}
+        aria-busy={loading ? "true" : "false"}
+      >
+        <img src={searchIcon} className={styles.searchIcon} alt="" />
+      </button>
       {bio?.name?.length > 0 ? (
         <CharacterCards bio={bio} setBio={setBio} />
       ) : (
