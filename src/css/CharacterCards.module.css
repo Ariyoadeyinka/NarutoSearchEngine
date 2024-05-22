@@ -4,6 +4,8 @@
   color: white;
   font-family: sans-serif;
   margin: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
 .personalInfo p {
   color: white;
@@ -23,6 +25,9 @@
   background-color: #171c24;
   width: 70%;
   margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px ;
 }
 .cards {
   display: flex;
