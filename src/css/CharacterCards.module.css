@@ -7,7 +7,7 @@
   font-size: 20px;
   border-radius: 5px;
 }
-.personalInfoContainer{
+.personalInfoContainer {
   padding: 30px;
 }
 .personalInfo p {
@@ -30,7 +30,7 @@
   margin: auto;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 50px ;
+  margin-top: 50px;
 }
 .cards {
   display: flex;
@@ -40,28 +40,40 @@
   background-color: #2d3443;
   color: white;
   font-family: sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
   margin: 10px;
   height: 100%;
 }
-.OtherInfoOuter{
+.OtherInfoOuter {
   width: 50%;
   color: white;
   font-family: sans-serif;
   margin: 10px;
   height: 100%;
 }
-.OtherInfoInner{
+.OtherInfoInner {
   width: 100%;
   background-color: #2d3443;
   color: white;
   font-family: sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 100%;
+}
+.OtherInfoInnerTwo {
+  width: 100%;
+  background-color: #2d3443;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 20px;
   height: 100%;
 }
 .OtherInfoBox {
   display: flex;
 }
-
-
 
 @media only screen and (max-width: 720px) {
   .personalInfo {
@@ -77,7 +89,7 @@
     margin: 0;
     margin-bottom: 20px;
   }
-  .OtherInfoOuter{
+  .OtherInfoOuter {
     width: 100%;
     margin: 0;
   }
