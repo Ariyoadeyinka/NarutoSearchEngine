@@ -3,7 +3,7 @@ import userIcon from "../images/user.png";
 export default function CharacterCards({ bio }) {
   return (
     <div>
-      <div className={styles.Information}><div className={styles.toCenter}> <img src={userIcon}  alt="" /> <h1>About {bio.name}</h1> </div></div>
+  
       <article className={styles.CharInfo}>
         <div className={styles.cards}>
           <article className={styles.personalInfo}>
